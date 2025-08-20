@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Adler';
+    src: url('./fonts/Adler.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Albertsthal Typewriter';
+    src: url('./fonts/Albertsthal Typewriter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Punktype';
+    src: url('./fonts/Punktype.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url('./fonts/SpecialElite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Typedeer Mono Demo';
+    src: url('./fonts/Typedeer Mono Demo.ttf') format('truetype');
+}
+
+body {
+    background-image: url('./bg/bg2.jpg');
+    background-size: cover;
+    background-color: #DBE1BC;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Adler';
+    text-align: center;
+    margin-top: 9vh;
+    margin-bottom: 5vh;
+    font-size: 7vh;
+    font-weight: 100;
+}
+
+.container {
+    background-image: url('./bg/bg3.jpg');
+    background-size: cover;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+    width: 65vh;
+    padding: 7vh;
+    border: 1vh solid #422d1c;
+    border-radius: 5rem;
+    background-color: #D8CBA8;
+    font-family: 'Special Elite';
+}
+
+#global-byaaj {
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding-left: 1vh;
+    margin-top: 2vh;
+    background-color: #FFFAE2;
+}
+
+input,
+select {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 1vh;
+    margin-top: 2vh;
+    background-color: #FFFAE2;
+    font-family: 'Special Elite';
+}
+
+.addButton {
+    font-size: 1rem;
+    padding: 1vh;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.allButtons {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#entries {
+    max-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+button {
+    margin: 2vh;
+    font-size: 1rem;
+    padding: 1vh 2vh;
+    border-radius: 0.5rem;
+    background-color: #FFFAE2;
+    font-family: 'Typedeer Mono Demo';
+}
+
+.entry {
+    border: 2px dashed #422d1c;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fffdf0c0;
+}
+
+.entry-total {
+    display: block;
+    margin-top: 1vh;
+    font-weight: bold;
+}
